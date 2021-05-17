@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "homepage",
+  "description": "Confluenza Demo Homepage",
+  "version": "1.0.0",
+  "author": "Marcin Czenko <marcin@everydayproductive.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/confluenza/monorepo-template.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@confluenza/gatsby-theme-confluenza": "^1.0.26",
+    "gatsby": "^3.4.0",
+    "gatsby-plugin-catch-links": "^3.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-media": "^1.9.2"
+  },
+  "keywords": [
+    "gatsby",
+    "confluenza",
+    "markdown"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "devDependencies": {
+    "gatsby-cli": "^3.4.0",
+    "gatsby-plugin-root-import": "^2.0.6"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop"
+  }
+}

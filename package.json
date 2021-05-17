@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "workspaces/*"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "standard": "^16.0.3"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "workspaces/homepage/public/**",
+      "workspaces/demo-component-navigator/build/**",
+      "**/node_modules/**",
+      "**/lib/**",
+      "**/es/**"
+    ],
+    "envs": [
+      "es6",
+      "browser",
+      "jest"
+    ]
+  }
+}
