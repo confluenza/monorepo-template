@@ -28,7 +28,7 @@
   "license": "MIT",
   "main": "n/a",
   "devDependencies": {
-    "gatsby-cli": "^3.10.0",
+    "gatsby-cli": "^3.11.0",
     "gatsby-plugin-root-import": "^2.0.6"
   },
   "scripts": {
