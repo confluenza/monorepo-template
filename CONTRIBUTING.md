@@ -10,7 +10,7 @@ After you clone your forked repo, follow the following steps to bootstrap your l
 
 ```bash
 » yarn
-» (cd workspaces/homepage && yarn develop)
+» (cd workspaces/homepage && yarn dev)
 ```
 
 ## Code organization

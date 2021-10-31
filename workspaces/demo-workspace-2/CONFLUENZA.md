@@ -3,6 +3,7 @@ path: /demo-workspace-2
 title: Demo Workspace 2
 tag: demo2
 content: README.md
+sortIndex: 1
 ---
 
 ## Using External Content
